@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navlink a{
+    text-decoration: none;
+    float: right;
+    
+padding: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.navlink ul li{
+    display: inline;
+}
+
+#nav .navlink a{
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 2px;
+    color: white;
+    
+   width: max-content;
+   text-decoration: none;
+}
+.fa-solid fa-house{
+
+}
+i{
+    float: right;
+  
+}
+.Zinacor{
+    display: inline;
+    margin-bottom: 5px;
+}
+.logo{
+    margin-left: 20px;
+  padding-top: 20px;
+
+}
+#nav .navlink a:hover{
+    background-color: rgba(241, 228, 228, 0.795);
+    color: black;
+    transition: .5s ease;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+
+.inside1{
+    display: none;
+}
+#nav .navlink ul li a:hover .inside1 {
+    display: block;
+    position: absolute;
+    float: right;
+    margin-top: 15px;
+    margin-left: -15px;
+
+
+}
+#nav .navlink ul li:hover .inside1 ul{
+    display: block;
+    margin: 10px;
+    float: right;
+}
+#nav .navlink ul li:hover .inside1 ul li{
+
+}
+
+#main{
+    background-repeat: no-repeat;
+    background-size:cover;
+ background-position: center;
+ padding-top: 5px;
+
+}
+#main img{
+    background-repeat: no-repeat;
+    background-size:cover;
+ background-position: center;
+   width: 1262px;
+   height: 500px;
+   margin-top: 5px;
+   
+}
+#nav{
+    background-color: rgb(175, 171, 171);
+    background-size: cover;
+    
+}
+#text{
+    background-color: aqua;
+    margin-bottom: 50%;
+    margin-top: -30%;
+    color: white;
+    margin-left: 50%;
+
+}
+#main2{
+    margin-bottom: 20%;
+    margin-top: -20%;
+    color: rgba(39, 39, 128, 0.874);
+    margin-left: 30px;
+    font-size:40px ;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+#insidetext{
+    color: black;
+    float: right;
+    font-size: 20px;
+    margin-top: -10%;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 25px;
+
+}
+
+#secondpart{
+    background-color: rgb(58, 58, 118);
+    height: 500px;
+    width: 900px;
+   margin-left: 150px;
+   margin-top: 150px;
+}
+#secondpart img{
+    height: 400px;
+    margin-top: 40px;
+    margin-left: -40px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.insidetext{
+    color: red;
+    float: right;
+    margin-top: 50px;
+    margin-right: 140px;
+margin-left: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.insidetext a{
+color: white;
+text-decoration: none;
+}
+.insidetext a:hover{
+    text-decoration: underline;
+    transition-delay: 5s ;
+    transition-duration: .3s;
+
+}
+.cards{
+   
+    width: 1000;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 300px;
+    align-content: center;
+}
+.card{
+    
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: azure;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(88, 30, 222);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards{
+    font-size: medium;
+    font-style: normal;
+    
+}
+.card u{
+    font-style: italic;
+}
+.card{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.card:hover{
+    background-color: azure;
+    transform: scale(1.2);
+    transition-duration: .3s;
+    
+}
+.card h4{
+    color: rgb(54, 54, 142);
+    font-size: large;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.card a:hover{
+    text-decoration: none;
+    transition: 1s;
+}
+.images {
+    display: none;
+    margin-top: 30px;
+}
+.images{
+    display: inline;
+}
+#img1 #img2{
+    
+}
+.half{
+    display: inline;
+}
+section .images{
+    display: flex;
+    font-style: normal;
+    font-size: medium;
+    
+color:black;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+#img1{
+    width: 700px;
+    height: 400px;
+   padding-top: 100px;
+   padding-left: 50px;
+   background-color: aliceblue;
+  
+    
+    
+    
+}
+#img2{
+    width: 700px;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 30px;
+    background-image: url(./images/small.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    
+    
+}
+#img1:hover{
+    background-color: rgb(94, 94, 212);
+    color: white;
+    content: "\f86c";
+    font-family:"" ;
+
+}
+
+#img2:hover{
+    background-image: url(./images/download.jpg) ;
+    height: 400px;
+    width: 700px;
+    transition: 0.2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
